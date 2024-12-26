@@ -1,12 +1,7 @@
-import Home from './Home';
-function App() {
+import React from 'react';
+export default function Home(props) {
     return (
-        <div>
-        <h1>Hello from ReactJS</h1>
-        <Home />
-        <About />
-        <Contact />
+        <div>Welcome {props.name} {props.age}
         </div>
-    );
+    )
 }
-export default App;

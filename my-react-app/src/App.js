@@ -6,9 +6,9 @@ function App() {
   return (
     <div>
     <h1>Hello From React JS</h1>
-    <Greeting name = {'Akash'}/>
+     <Greeting name = {'Akash'}/>
     <Greeting name = {'Ayush'}/>
-    {/* < Home  name = {name} age = {24} />
+    {/* < Home  name = {'Pooja'} age = {24} />
     <About />
     <Contact /> */}    
     </div>
