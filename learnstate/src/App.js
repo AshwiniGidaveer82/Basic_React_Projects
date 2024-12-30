@@ -1,6 +1,7 @@
 import React , { useState } from "react";
 // import logo from './assets/logo.svg'; 
 // import {useState} from 'react';
+import Counter from './Counter';
 
 export default function App() {
   // let name = '';
@@ -13,8 +14,9 @@ export default function App() {
   }
   return (
     <div>
-      <h1>Hello {name}</h1>
-      <button onClick={handleclick}>Click</button>
+      {/* <h1>Hello {name}</h1>
+      <button onClick={handleclick}>Click</button> */}
+      <Counter />
     </div>
   )
 }

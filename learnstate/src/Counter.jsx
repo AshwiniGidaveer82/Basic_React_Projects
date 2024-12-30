@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 
 export default function Counter() {
     const [count, setCount] = useState(0);
-    const increase = ()=> setCount(count++);
-    const decrease = ()=> setCount(count--);
+    const increase = ()=> setCount(count+1);
+    const decrease = ()=> setCount(count-1);
     const reset = ()=> setCount(0);
     return (
         <div>
